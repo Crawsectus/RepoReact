@@ -1,14 +1,16 @@
-import Header from './header.jsx'
-import Footer from './Footer.jsx'
-import Food from './Food.jsx';
-import Card from './Card.jsx';
+import Header from './Header/header.jsx'
+import Footer from './Footer/Footer.jsx'
+import Card from './Card/Card.jsx';
+import Button from './Button/Button.jsx';
+import Student from './Student/Student.jsx';
 
 function App() {
   return(
     <>
       <Header></Header>
-      <Food></Food>
       <Card></Card>
+      <Button></Button>
+      <Student name="Alejandro" age={new Date().getFullYear()-2001} isStudent={true} ></Student>
       <Footer></Footer>
     </>
 
