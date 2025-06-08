@@ -3,11 +3,9 @@ import PropTypes from "prop-types"
 function Student(props){
     return(
         <div>
-            <p>
                 <p>Nombre: {props.name} </p>
                 <p>Edad: {props.age} </p>
                 <p>Estudiante: { props.isStudent? "Si" : "No"} </p>
-            </p>
         </div>
     );
 }
