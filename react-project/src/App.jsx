@@ -5,6 +5,7 @@ import Button from './Button/Button.jsx';
 import Student from './Student/Student.jsx';
 import UserGreeting from './UserGreeting/UserGreeting.jsx';
 import List from './List/List.jsx';
+import Component from './Component/Component.jsx';
 
 function App() {
       const fruits = [
@@ -27,6 +28,7 @@ function App() {
       <UserGreeting isLogged={true} username="Crawsectus"></UserGreeting>
       {fruits.length>0 && <List items={fruits} category="Frutas"></List>}
       {vegetales.length>0 && <List items={vegetales} category="Vegetales"></List>}
+      <Component></Component>
       <Footer></Footer>
     </>
 
